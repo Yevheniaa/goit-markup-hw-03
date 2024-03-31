@@ -1,15 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
+  img {
+    display: block;
+  }
 }
-/* -------------------HERO-------------- */
+.container {
+  max-width: 1128px;
+  padding: 0 15px;
+
+  margin: 0 auto;
+}
+/* -------------------HEder-------------- */
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-nav {
+  padding-top: 24px;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -55,8 +91,11 @@ a {
 .header-address-link:focus {
   color: #404bbf;
 }
+/* -------------------------------HERO-=================- */
 .hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -65,6 +104,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -76,6 +118,9 @@ a {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  max-width: 169px;
+  margin: 0 auto;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -85,6 +130,23 @@ a {
 }
 /* --------------------ADVANTURES-------------------- */
 
+.section-advant-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.advant {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .advant-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -101,6 +163,8 @@ a {
 /* ----------------------TEAM---------------- */
 .section-team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-team-title {
@@ -111,6 +175,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .section-team-list {
   background-color: #fff;
@@ -130,6 +195,10 @@ a {
 }
 
 /* ---------------PORTFOLIO------------- */
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -138,6 +207,8 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+
+  margin-bottom: 72px;
 }
 
 .portfolio-subtitle {
@@ -146,15 +217,21 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* ---------------FOOTER----------------- */
+
 .section-footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -163,6 +240,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 .footer-logo-white {
   color: #f4f4fd;
@@ -172,4 +250,5 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
