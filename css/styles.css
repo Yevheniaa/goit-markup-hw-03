@@ -36,20 +36,20 @@ img {
 }
 
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   padding: 0 15px;
 
   margin: 0 auto;
 }
 /* -------------------HEder-------------- */
 header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
+
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-wrap {
   display: flex;
