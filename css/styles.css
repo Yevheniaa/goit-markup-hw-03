@@ -248,6 +248,7 @@ header {
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+  border: 1px solid #e7e9fc;
 }
 .section-portfolio-menu {
   display: flex;
@@ -257,7 +258,6 @@ header {
 }
 .section-portfolio-list {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
 }
 .section-portfolio-title {
   font-weight: 700;
@@ -270,6 +270,9 @@ header {
 
   margin-bottom: 72px;
 }
+.portfolio-sublist {
+  padding: 32px 16px;
+}
 
 .portfolio-subtitle {
   font-weight: 500;
@@ -277,14 +280,11 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
-  padding-left: 24px;
 }
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 24px;
 }
 /* ---------------FOOTER----------------- */
 
