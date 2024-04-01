@@ -43,7 +43,6 @@ img {
 }
 /* -------------------HEder-------------- */
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
@@ -74,6 +73,7 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-menu-link {
   font-weight: 500;
@@ -168,7 +168,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 .advant {
   padding-top: 120px;
@@ -257,6 +256,8 @@ img {
 }
 .section-portfolio-list {
   width: calc((100% - 48px) / 3);
+  padding-left: 0;
+  margin: 0;
 }
 .section-portfolio-title {
   font-weight: 700;
